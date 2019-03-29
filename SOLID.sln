@@ -3,9 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Single Responsibility", "Single Responsibility", "{421AE6D1-AF39-43C7-AA88-6934057CB0A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bad Design", "Bad Design", "{BFD0448C-6BB8-470E-A9E5-84E6AD0E6615}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Good Design", "Good Design", "{904A13FC-C765-447B-B07F-8295DC1B4C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineReservationBad", "OnlineReservationBad\OnlineReservationBad.csproj", "{39A9F69A-CEA2-4D59-846A-07E765B8DC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineReservationGood", "OnlineReservationGood\OnlineReservationGood.csproj", "{BC613369-45F0-4B86-A104-E5A4F9004707}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A9F69A-CEA2-4D59-846A-07E765B8DC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A9F69A-CEA2-4D59-846A-07E765B8DC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A9F69A-CEA2-4D59-846A-07E765B8DC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A9F69A-CEA2-4D59-846A-07E765B8DC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC613369-45F0-4B86-A104-E5A4F9004707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC613369-45F0-4B86-A104-E5A4F9004707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC613369-45F0-4B86-A104-E5A4F9004707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC613369-45F0-4B86-A104-E5A4F9004707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFD0448C-6BB8-470E-A9E5-84E6AD0E6615} = {421AE6D1-AF39-43C7-AA88-6934057CB0A4}
+		{904A13FC-C765-447B-B07F-8295DC1B4C34} = {421AE6D1-AF39-43C7-AA88-6934057CB0A4}
+		{39A9F69A-CEA2-4D59-846A-07E765B8DC7F} = {BFD0448C-6BB8-470E-A9E5-84E6AD0E6615}
+		{BC613369-45F0-4B86-A104-E5A4F9004707} = {904A13FC-C765-447B-B07F-8295DC1B4C34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7F73558-87CD-44B8-ABC2-DFCE17CDA0B6}
